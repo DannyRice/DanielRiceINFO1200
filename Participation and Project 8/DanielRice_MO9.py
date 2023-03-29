@@ -24,9 +24,14 @@ def display_menu():
     print("")  # displays a space
     print("COMMAND MENU")  # displays the menu section title
     print("")  # displays a space
-    print("show - Show all items")  # displays
+    print("show - Show all items")  # displays a command option
     print("grab - Grab an item")
     print("edit - Edit an item")
     print("drop - Drop an item")
     print("exit - Exit program")
     print("")  # displays a space
+
+
+def main():
+    display_title
+    display_menu
