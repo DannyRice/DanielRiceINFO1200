@@ -62,7 +62,8 @@ def process_scores(scores):
     print("")  # display a space
     print("Score total:       ", total)  # display the score total
     print("Number of Scores:  ", num_scores)  # display the number of scores
-    print("Average Score:     ", average)  # display the average of scores
+    # display the average of scores
+    print("Average Score:     ", round(average, 3))
     print("Median Score       ", median)  # display the median of scores
     print("Highest Score      ", max(scores))  # display the highest score
     print("Lowest Score       ", min(scores))  # display the lowest score
